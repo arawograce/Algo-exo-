@@ -1,0 +1,17 @@
+Algorithme Comparaison 
+variables a,b: entier
+Début
+	affiche(" Veuillez entré un nombre a: ")
+	lire(a)
+	affiche(" Veuillez entré un nombre b: ")
+	lire(b)
+	si (a=b)alors
+		    affiche(a, " est égale à " ,  b)
+		    sinon 
+		        si (a<b)alors
+		            affiche(a, " est inférieure à " , b)
+		     sinon 
+		     affiche(a, " est supérieur à " , b)    
+		      finsi
+		finsi
+Fin

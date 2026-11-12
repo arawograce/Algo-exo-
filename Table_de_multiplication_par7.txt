@@ -1,0 +1,12 @@
+Algorithme multiplication_par7
+Variables 
+	nombre: entier
+	i: entier
+	a: entier
+Début
+   nombre<-1
+	pour i de nombre  à nombre +9 faire
+		    a<-(i*7)
+		    ecrireln(i,"*7=",a)
+	finpour
+Fin

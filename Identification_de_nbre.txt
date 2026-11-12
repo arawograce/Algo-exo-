@@ -1,0 +1,16 @@
+Algorithme Exo1
+Variable a: entier
+Début
+	ecrire("Entrez un nombre : ")
+	Lire(a)
+	si (a>0) alors
+		    ecrire(a," est positif")
+	    sinon 
+	        si (a<0)alors
+	            ecrire(a, " est négatif")
+	    Sinon 
+	         ecrire(a, " est nul")
+	        finsi
+	 finsi
+Fin
+		   
